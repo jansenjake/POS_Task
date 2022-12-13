@@ -5,7 +5,7 @@ body, html {
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-color: blueviolet;
-  
+    overflow-x: hidden;
 
 }
 footer {
@@ -88,7 +88,6 @@ footer {
     animation-name: paragraph1;
     color: black;
     border-radius: 15px;
-    
     animation-duration: 7s;
 }
 
@@ -143,6 +142,19 @@ footer {
     margin-left: 40px;
     margin-right: 40px;
 }
+
+
+.input{
+  margin: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 5rem;
+  width: 550px;
+  max-height: fit-content;
+}
+
+
 
 
 
