@@ -1,0 +1,149 @@
+body, html {
+    height: 100%;
+    background-image: url(../images/new_bg.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-color: blueviolet;
+  
+
+}
+footer {
+  background-color: black;
+}
+
+.nav-link {
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(73, 85, 121);
+  transition: 0.5s ease-in;
+  color: black;
+  border-radius: 20px;
+}
+
+.nav-item:hover {
+  background-color: rgb(73, 85, 121);
+  transition: 0.5s ease-in;
+  color: black;
+  border-radius: 15px;
+}
+
+.navbar {
+  border-radius: 10px;
+}
+
+.navbar-toggler {
+  border-radius: 35px;
+}
+
+.nav-link:hover {
+  color: black;
+  
+}
+
+
+
+.navbar-brand:hover {
+  background-color: rgb(73, 85, 121);
+  color: black;
+  transition: 0.5s ease-in-out;
+  border-radius: 20px;
+  padding-left:5px ;
+  padding-right: 5px;
+}
+
+.container{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: fit-content;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    font: 850 3rem sans-serif ;
+    padding: 1rem;
+    animation-name: fade-text;
+    animation-duration: 1s;
+    background-attachment: fixed;
+
+}
+
+@keyframes fade-text{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.paragraph1{
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    animation-name: paragraph1;
+    color: black;
+    border-radius: 15px;
+    
+    animation-duration: 7s;
+}
+
+@keyframes paragraph1{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.foot{
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: 300px;
+    padding: 30px;
+}
+
+.btn{
+    border-radius: 10px;
+    color: blueviolet;
+    width: fit-content;
+    margin: auto;
+    background-color: black;
+    padding: 5px;
+    box-shadow: 4px 2px;
+    margin-bottom: 5px;
+}
+.btn:hover{
+    border-radius: px;
+    color: black;
+    width: fit-content;
+    margin: auto;
+    background-color: blueviolet;
+    padding: 5px;
+    border-color: black;
+    margin-bottom: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    text-decoration:solid;
+}
+.col{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
