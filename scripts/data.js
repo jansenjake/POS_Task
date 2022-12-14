@@ -114,7 +114,11 @@ localStorage.setItem('houses', JSON.stringify(birdHouses))
 
 
 // checkout button below
-// function myBTN(){
-//     document.getElementById('btn-id').innerHTML 
-// }
 
+
+document.getElementById('btn-id').addEventListener ('click', myBTN); 
+
+
+function myBTN(){
+    document.getElementsByClassName('contain').innerHTML
+}
